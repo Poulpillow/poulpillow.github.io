@@ -1,21 +1,26 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <p>
-      Je suis étudiante à l'IMAC
-    </p>
+    <p>I'm a student at IMAC</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'About'
-}
+  name: "About",
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-*{
-background-color: lightgrey;
+* {
+  text-align: center;
+}
+h1 {
+  margin-top: 3%;
+}
+p {
+  margin-bottom: 10%;
+  margin-top: 50px;
 }
 </style>

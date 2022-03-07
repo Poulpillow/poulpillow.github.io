@@ -3,22 +3,19 @@
     <div v-if="show" class="modal-mask">
       <div class="modal-wrapper">
         <div class="modal-container">
+          <button class="modal-default-button" @click="$emit('close')">
+            X
+          </button>
           <div class="modal-header">
             <slot name="header">TITRE</slot>
           </div>
 
           <div class="modal-body">
-            <slot name="body">{{msg}}</slot>
+            <slot name="body">{{ msg }}</slot>
           </div>
 
           <div class="modal-footer">
-            <slot name="footer">
-              IMAGES
-              <button
-                class="modal-default-button"
-                @click="$emit('close')"
-              >X</button>
-            </slot>
+            <slot name="footer"> IMAGES </slot>
           </div>
         </div>
       </div>
@@ -30,9 +27,9 @@
 export default {
   props: {
     show: Boolean,
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <style>
@@ -54,7 +51,7 @@ export default {
 }
 
 .modal-container {
-  width: 300px;
+  width: 90%;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
@@ -65,7 +62,7 @@ export default {
 
 .modal-header h3 {
   margin-top: 0;
-  color: #42b983;
+  color: blue;
 }
 
 .modal-body {
