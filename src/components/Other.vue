@@ -4,51 +4,80 @@
     <div class="wrapper">
       <div class="project">
         <Project
-          title="Theater workshop"
+          title="Atelier théâtre"
+          subtitle="2021/2022 - Engagement Associatif"
           v-bind:picture="theatre"
-          blabla="Made in 2021/2022"
+          blabla="Pour l’année 2021/2022, j’ai décidé de fonder un pôle théâtre au Bureau des Arts de l’université. Avec l’aide de deux personnes j’ai tenu tout au long de l’année un atelier hebdomadaire de 2h, où nous invitons étudiants débutants ou professionnels à réaliser des exercices sur différents domaines du théâtre : travail sur la voix, le corps, les intéractions avec les autres, l’improvisation, etc. 
+Mon but est de poser des bases solides dans ce pôle afin que l’année prochaine les prochains responsables théâtre puissent créer un événement tel que les 48h de la scène ou encore préparer une pièce de théâtre à jouer en fin d’année. Je suis très fière de ce que nous avons accompli jusqu’à présent. Cet atelier m’a permis de transmettre ma passion pour le théâtre à d’autres personnes et m’a fait progresser en tant qu’intervenante et pédagogue.
+[Images]"
         />
       </div>
       <div class="project">
         <Project
-          title="E-Taverne club"
+          title="E-Taverne"
+          subtitle="2021/2022 - Engagement Associatif"
           v-bind:picture="etaverne"
-          blabla="Made in 2021/2022"
+          blabla="Je suis actuellement présidente de l’association de streaming de l’université Gustave Eiffel. Nous proposons du contenu vidéo diffusé en live sur la plateforme Twitch. J’ai été chargé de diriger l’équipe, faire la communication, gérer le matériel et les réunions et organiser les évènements. Prochainement nous allons faire notre plus grand évènement qui se trouve être un 48h du streaming où nous collecterons des dons pour les reverser à un organisme humanitaire.
+Cette opportunité m’a permis de découvrir de nombreuses responsabilités en tant que président d’une association, j’ai aussi pû développer mes compétences en gestion de réunion, et organisation d'une équipe. 
+[Images]"
         />
       </div>
       <div class="project">
         <Project
-          title="Algorithmic Aesthetics First Project"
+          title="Esthétique Algorithmique - Recoding"
+          subtitle="Mars 2021 - Projet individuel IMAC"
           v-bind:picture="eaone"
-          blabla="Made in 2021"
+          blabla="Nous devions choisir une œuvre digitale des années 60 et tenter de coder à l’instar de l’artiste pour refaire l'œuvre. Nous devions ensuite proposer des améliorations. Nous avons utilisé le langage p5.js. Je n’avais jamais utilisé ce langage avant et j’ai beaucoup appris grâce à ce projet. J’ai aussi appris à bien analyser et comprendre les techniques et méthodes de l’artiste afin de reproduire son œuvre. J’ai ensuite ajouté des options tel que changer la palette de couleurs, pouvoir choisir un nombre de points pour les placer ensuite comme l’utilisateur le veut. J’ai vraiment apprécié ce projet !
+[images + lien + pdf]"
         />
       </div>
       <div class="project">
         <Project
-          title="Algorithmic Aesthetics Second Project"
+          title="Esthétique Algorithmique - Vidéo IA"
+          subtitle="Mai 2021 - Projet IMAC"
           v-bind:picture="eatwo"
-          blabla="Made in 2021"
+          blabla="Par binôme, nous devions coder en p5.js et travailler avec une IA afin de réaliser une vidéo artistique et justifier notre démarche et notre concept. Nous avons alors pris une IA qui générait des dessins de modèles des années 50 et en ajoutant notre code, nous avons pu créer un mouvement qui ressemble à une danse. Comprendre le fonctionnement de l’IA au départ à été vraiment complexe mais nous sommes fiers du résultat. 
+[Vidéo + PDF]"
         />
       </div>
       <div class="project">
         <Project
           title="Space Run 3D"
+          subtitle="Décembre 2021 - Projet IMAC"
           v-bind:picture="spacerun"
-          blabla="Made in 2022"
+          blabla="Nous avons dû réaliser en OpenGL un jeu qui ressemble à un Temple Run. Nous avons décidé de l’adapter à un univers de science fiction.
+Envolez-vous dans votre vaisseau spatial et tentez d’échapper aux ennemis ! Attention de nombreux obstacles se trouveront sur votre chemin ! 
+Nous avions beaucoup de contraintes à respecter. Il fallait un jeu visuel, avec les fonctionnalités de déplacements, de sauts, la génération d’obstacles et le ramassage de pièces. J’ai été en charge des déplacements de la caméra, ainsi qu’en partie de la génération de pièces et d’obstacles. Je me suis aussi appliquée à la physique des sauts et choisi les textures 2D. Ce fut un projet très difficile mais j’ai beaucoup appris en C++ et en OpenGL grâce à lui.
+[Photos + Lien git + vidéo]"
         />
       </div>
       <div class="project">
         <Project
           title="Workshop"
+          subtitle="Octobre 2020 - Projet IMAC"
           v-bind:picture="workshop"
-          blabla="Made in 2020"
+          blabla="Pendant une semaine, nous avons fait un exercice d’écriture : nous devions écrire un texte et le travailler pour ensuite le mettre en scène dans une vidéo ou un audio. J’ai décidé de faire un texte poétique rythmé où chaque ligne est composée uniquement de 2 ou 3 mots. J’ai ensuite enregistré une amie. Le résultat est un audio de 3 minutes. J’ai beaucoup aimé travailler sur ce texte, il m’a permis de m’exprimer dans une phase de ma vie où j’avais de nombreux problèmes personnels mais aussi de m’améliorer en écriture et en montage audio.
+[mp3]"
         />
       </div>
       <div class="project">
         <Project
-          title="Tale podcast"
+          title="Conte audio"
+          subtitle="Mai 2021 - Projet IMAC"
           v-bind:picture="conte"
-          blabla="Made in 2021"
+          blabla="En Techniques du Son, nous devions réaliser un audio de quelques minutes sur Pro Tools. Nous avons décidé avec mon binôme de faire une réinterprétation du conte le Petit Chaperon Rouge.
+Nous avons donc réécrit l'histoire. Nous nous sommes ensuite enregistrés puis nous avons monté l'audio sur protools.
+Je me suis occupé en partie de l'histoire, j'ai ensuite enregistré et doublé les voix, puis je me suis occupé de la partie du son en MIDI et de la recherche des bruitages et des musiques. 
+Je n'avais jamais vraiment travaillé de son auparavant et ce fut une très belle expérience. Nous avons pris beaucoup de plaisir à doubler et à travailler le son
+[audio]"
+        />
+      </div>
+      <div class="project">
+        <Project
+          title="Portfolio"
+          subtitle="Mars 2022 - Projet Personnel"
+          v-bind:picture="workshop"
+          blabla="J’ai réalisé ce portfolio avec Vue.js. Pendant 48h, avec une amie, nous avons codé notre portfolio. Nous avons principalement fait la structure du site pendant ces 48h, puis nous avons continué ensuite la mise en page et le contenu. Nous sommes fiers de ce que nous avons fait."
         />
       </div>
     </div>

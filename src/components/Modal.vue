@@ -15,7 +15,7 @@
           </div>
 
           <div class="modal-footer">
-            <slot name="footer"> IMAGES </slot>
+            <slot name="footer"></slot>
           </div>
         </div>
       </div>

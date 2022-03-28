@@ -10,9 +10,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-* {
-  background-color: red;
-}
 .banner {
   background-image: url("../assets/no_picture.jpeg");
   height: 100vh;

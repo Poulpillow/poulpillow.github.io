@@ -3,24 +3,21 @@
     <header>
       <a class="name" href="/">Clémence Voegelé</a>
       <nav>
-        <a class="item" href="/">Home</a>
+        <a class="item" href="/">Accueil</a>
         <router-link class="item" to="/motiondesign">Motion Design</router-link>
-        <router-link class="item" to="/graphism">Graphism</router-link>
-        <router-link class="item" to="/audiovisual">Audiovisual</router-link>
+        <router-link class="item" to="/graphism">Graphisme</router-link>
+        <router-link class="item" to="/audiovisual">Audiovisuel</router-link>
         <router-link class="item" to="/3d">3D</router-link>
-        <router-link class="item" to="/other">Other</router-link>
-        <router-link class="item" to="/about">About</router-link>
+        <router-link class="item" to="/other">Autres</router-link>
+        <router-link class="item" to="/about">A propos</router-link>
       </nav>
     </header>
     <router-view />
     <footer>
-      <p class="name">Clémence Voegelé | 2022 | All right reserved</p>
+      <p class="name">Clémence Voegelé | 2022 | Tous droits réservés</p>
       <ul>
         <a href="https://www.instagram.com/poulpillow/"
           ><img id="one" class="item" src="./assets/instagram.png"
-        /></a>
-        <a href="https://www.facebook.com/poulpillow"
-          ><img id="one" class="item" src="./assets/facebook.png"
         /></a>
         <a
           href="https://www.linkedin.com/in/cl%C3%A9mence-voegel%C3%A9-0455b122b/"
@@ -51,6 +48,10 @@ export default {
 <style>
 #app {
   align-content: center;
+  position: relative;
+}
+#app > div {
+  min-height: 100vh;
 }
 header {
   background-color: lightblue;
@@ -108,7 +109,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  top: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 * {
   font-family: Hubballi, Helvetica, sans-serif;
