@@ -20,7 +20,7 @@
             <br v-if="cachevid">
             <br v-if="cachevid">
             <video width=auto height="500" controls v-if="cachevid">
-              <source v-bind:src="video" type="video/mp4">
+              <source v-bind:src="video">
             </video>
             <br v-if="cacheimg">
             <br v-if="cacheimg">

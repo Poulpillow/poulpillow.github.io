@@ -15,10 +15,11 @@
                   Pouvoir observer le résultat et voir la réaction du public fût une expérience très enrichissante. Nous avons reçu beaucoup de retours positifs sur notre vidéo, que ce soit du public, des organisateurs du festival ou encore de nos tuteurs.
                   Je suis très fière de ce projet.
                   Ce projet sera très prochainement présenté lors du salon de présentation des PTUT de l’IMAC, en mai 2022"
-          :vid="mekongvid"
           :img="mekongpic"
-          :hidvid="true"
           :hidimg="true"
+          lien="https://drive.google.com/file/d/1i6annsvJtlWgOR6oHQclXnFGCrPf06eA/view?usp=sharing"
+          :hidlink="true"
+          nom="Vidéo"
         />
       </div>
       <div class="project">
@@ -94,7 +95,6 @@ export default {
       gif: require("../assets/projet/motiondesign/gertie.jpg"),
       totoro: require("../assets/projet/motiondesign/totoro.png"),
       mekong: require("../assets/projet/motiondesign/mekong.png"),
-      mekongvid: require("../assets/projet/motiondesign/mekong.mp4"),
       mekongpic: require("../assets/projet/motiondesign/mekong.jpg"),
       totorovid: require("../assets/projet/motiondesign/totoro.mp4"),
       gertiepic: require("../assets/projet/motiondesign/gertie.gif"),
