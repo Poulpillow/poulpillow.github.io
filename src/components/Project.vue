@@ -12,12 +12,14 @@
 
     <Teleport to="body">
       <!-- use the modal component, pass in the prop -->
-      <modal :show="showModal" @close="showModal = false" :msg="blabla">
+      <modal :show="showModal" @close="showModal = false" :msg="blabla" :video="vid" :image="img" :audio="aud" :cachevid="hidvid" :cacheimg="hidimg" :cacheaud="hidaud" :name="nom" :link="lien" :cachelink="hidlink">
         <template #header>
-          <h3>{{ title }}</h3>
+          <h2>{{ title }}</h2>
           <h4>{{ subtitle }}</h4>
         </template>
       </modal>
+      <br>
+      <br>
     </Teleport>
   </div>
 </template>
@@ -40,6 +42,15 @@ export default {
     subtitle: String,
     picture: { type: String, default: require("../assets/no_picture.jpeg") },
     blabla: String,
+    vid: String,
+    img: String,
+    aud: String,
+    hidimg: Boolean,
+    hidvid: Boolean,
+    hidaud: Boolean,
+    lien: String,
+    nom: String,
+    hidlink: String
   },
 };
 </script>
@@ -84,5 +95,13 @@ img {
 
 .textWithBlurredBg:hover :not(img) {
   opacity: 1;
+}
+h2 {
+  text-align: center;
+  color: #074b46;
+}
+h4 {
+  text-align: center;
+  color: #76a29f;
 }
 </style>
