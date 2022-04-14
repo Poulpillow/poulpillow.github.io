@@ -12,6 +12,26 @@
 
           <div class="modal-body">
             <slot name="body">{{ msg }}</slot>
+            <br v-if="cachelink">
+            <br v-if="cachelink">
+            <br v-if="cachelink">
+            <a :href="link" v-if="cachelink">{{name}}</a>
+            <br v-if="cachevid">
+            <br v-if="cachevid">
+            <br v-if="cachevid">
+            <video width=auto height="500" controls v-if="cachevid">
+              <source v-bind:src="video" type="video/mp4">
+            </video>
+            <br v-if="cacheimg">
+            <br v-if="cacheimg">
+            <br v-if="cacheimg">
+            <img :src="image" width="1000" height=auto v-if="cacheimg">
+            <br v-if="cacheaud">
+            <br v-if="cacheaud">
+            <br v-if="cacheaud">
+            <audio controls v-if="cacheaud">
+              <source v-bind:src="audio" type="audio/mp4" >
+            </audio>
           </div>
 
           <div class="modal-footer">
@@ -28,6 +48,15 @@ export default {
   props: {
     show: Boolean,
     msg: String,
+    video: String,
+    image: String,
+    audio: String,
+    cachevid: Boolean,
+    cacheimg: Boolean,
+    cacheaud: Boolean,
+    name: String,
+    link: String,
+    cachelink: Boolean
   },
 };
 </script>
@@ -62,11 +91,13 @@ export default {
 
 .modal-header h3 {
   margin-top: 0;
-  color: blue;
+  color: #074b46;
 }
 
 .modal-body {
   margin: 20px 0;
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
 }
 
 .modal-default-button {
@@ -95,4 +126,5 @@ export default {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 </style>
