@@ -54,7 +54,7 @@ export default {
   min-height: 100vh;
 }
 header {
-  background-color: lightblue;
+  background-color: #074b46;
   position: sticky;
   z-index: 1;
   display: flex;
@@ -72,39 +72,39 @@ header {
 }
 .name:link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .name:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .name:hover {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .name:active {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .item:link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .item:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .item:hover {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .item:active {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 footer {
-  background-color: lightblue;
-
+  background-color: #074b46;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
